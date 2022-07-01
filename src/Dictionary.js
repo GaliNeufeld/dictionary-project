@@ -23,7 +23,7 @@ export default function Dictionary() {
     }
 
     function handleResponse(response) {
-        console.log(response.data);
+       
         setResults(response.data[0]);
         
     }
