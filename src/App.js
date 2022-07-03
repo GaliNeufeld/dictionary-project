@@ -10,7 +10,7 @@ export default function App() {
           <img src={owl} className="owl-image img-fluid" alt="owl" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="yoga"/>
         </main>
         <footer className="App-footer">
           <small>Coded by Gali Neufeld</small>
