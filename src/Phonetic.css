@@ -1,3 +1,18 @@
-.Phonetic ul {
-    display: inline;
+
+
+.Phonetic i {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 150ms ease-in-out;
+    color: #65daf7;
+}
+
+.Phonetic i:hover {
+    background-color: white;
+}
+.Phonetic .text {
+    margin-right: 10px;
+    margin-left: 2px;
+    opacity: 0.7;
 }

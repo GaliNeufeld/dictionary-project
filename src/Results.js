@@ -12,11 +12,10 @@ export default function Results(props) {
               <h2>{props.results.word}</h2>
               {props.results.phonetics.map(function (phonetic, index) {
                 return (
-                  <ul>
-                    <li key={index}>
+                  
+                    <span key={index}>
                       <Phonetic phonetic={phonetic} />
-                    </li>
-                  </ul>
+                    </span>
                 );
               })}
            </section>
