@@ -16,7 +16,6 @@ export default function Dictionary(props) {
     
     
     function handleKeywordChange(event) {
-        console.log(event.target.value);
         setKeyword(event.target.value);
     }
 
@@ -31,7 +30,7 @@ export default function Dictionary(props) {
 
       let pexelsApiKey =  "563492ad6f917000010000016c2ae044f1b4422099dc49bbf1e17ef1";
       let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
-      let headers = { Authorization: `Bearer ${pexelsApiKey}` }
+      let headers = { Authorization: `Bearer ${pexelsApiKey}` };
       axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
     }
 
@@ -41,8 +40,7 @@ export default function Dictionary(props) {
     }
 
     function handlePexelsResponse(response) {
-        console.log(response);
-        setPhotos(response.data.photos)
+        setPhotos(response.data.photos);
     }
 
     if (loaded===true) {
