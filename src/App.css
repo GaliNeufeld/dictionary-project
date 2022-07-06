@@ -1,9 +1,11 @@
-body {
+.App body {
   background-color:
 }
 .App {
   font-family: 'Montserrat', sans-serif;
   color: #403d51;
+  max-width: 80%;
+  margin: 0 auto;
   
 
 }
