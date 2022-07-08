@@ -8,6 +8,10 @@
 .Dictionary input {
     width: 100%;
     padding: 6px 4px;
-    border: 1px solid #dddddd;
+    border: 1px solid #65daf7;
     border-radius: 6px;
+}
+.Dictionary input:focus {
+    outline: none;
+    
 }
