@@ -1,5 +1,5 @@
 import React from "react";
-import Definitions from "./Definitions";
+import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 import "./Results.css"
 
@@ -22,7 +22,7 @@ export default function Results(props) {
             {props.results.meanings.map(function (meaning, index) {
               return (
                 <section key={index}>
-                  <Definitions meaning={meaning} />
+                  <Meaning meaning={meaning} />
                 </section>
               );
             })}

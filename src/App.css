@@ -1,23 +1,26 @@
 .App body {
-  background-color:
+  background-image: url("./books.jpg");
+  width: 100%;
+  
 }
 .App {
   font-family: 'Montserrat', sans-serif;
   color: #403d51;
   max-width: 80%;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
+}
 
+.App h1 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.App a {
+  text-decoration: none;
 }
 .App-header {
   margin: 30px 0;
 }
-.owl-image {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-  background-color: transparent;
-}
+
 .App-footer {
   text-align: center;
   margin: 30px 0;
