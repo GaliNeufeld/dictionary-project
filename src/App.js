@@ -19,7 +19,7 @@ export default function App() {
             and is{" "}
             <a
               href="https://github.com/GaliNeufeld/dictionary-project"
-              target="_blank" rel="no referrer"
+              target="_blank" rel="no referrer noopener"
             >
               open-sourced
             </a>
