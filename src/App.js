@@ -17,9 +17,7 @@ export default function App() {
           <small>
             Coded by <a href="mailto:galneufeld@gmail.com">Gali Neufeld </a>
             and is{" "}
-            <a
-              href="https://github.com/GaliNeufeld/dictionary-project"
-              target="_blank" rel="no referrer noopener"
+            <a href="https://github.com/GaliNeufeld/dictionary-project" target="_blank" rel="no referrer noopener"
             >
               open-sourced
             </a>
