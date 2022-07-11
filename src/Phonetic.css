@@ -17,3 +17,9 @@
     opacity: 0.8;
     font-size: 18px;
 }
+@media (max-width: 576px) {
+    .Phonetic i {
+        padding: 3px;
+        border: none;
+    }
+}

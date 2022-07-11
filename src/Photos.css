@@ -2,3 +2,12 @@
     border-radius: 4px;
     margin-bottom: 20px;
 }
+@media (max-width: 576px) {
+    .Photos {
+     padding: 5px;   
+    }
+    .Photos img {
+      margin-bottom: 10px;
+    }
+
+}

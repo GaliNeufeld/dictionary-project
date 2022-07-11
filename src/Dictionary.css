@@ -15,3 +15,14 @@
     outline: none;
     
 }
+@media (max-width: 576px) {
+    .Dictionary section {
+        padding: 20px;
+    }
+}
+@media (min-height: 1100px) {
+    .Dictionary section {
+        margin: 50px 0;
+    }
+    
+}
