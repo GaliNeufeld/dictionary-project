@@ -1,11 +1,11 @@
 
 
 .Phonetic i {
-    border: 1px solid #ddd;
+    border: 1px solid #403d51;
     padding: 10px;
     border-radius: 50px;
     transition: all 150ms ease-in-out;
-    color: #65daf7;
+    color: #403d51;
 }
 
 .Phonetic i:hover {

@@ -1,22 +1,21 @@
-.App body {
-  background-image: url("./books.jpg");
+body {
+  background: url("./books.jpg");
   width: 100%;
-  
+  background-size: cover;
 }
 .App {
   font-family: 'Montserrat', sans-serif;
   color: #403d51;
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto; 
 }
 
 .App h1 {
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
 }
-.App a {
-  text-decoration: none;
-}
+
 .App-header {
   margin: 30px 0;
 }
@@ -24,5 +23,11 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
-
+  color: rgba(255, 255, 255, 0.9);
+}
+.App footer a {
+  color:rgba(255, 255, 255, 0.9);
+}
+.App footer a:hover {
+  color: coral;
 }

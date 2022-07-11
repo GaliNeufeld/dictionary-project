@@ -1,10 +1,12 @@
 
-
 import Dictionary from "./Dictionary";
 import "./App.css";
 
+
+
 export default function App() {
   return (
+  
     <div className="App">
       <div className="container">
         <header className="App-header">
@@ -15,8 +17,8 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by <a href="mailto:galneufeld@gmail.com">Gali Neufeld </a>
-            and is{" "}
+            Coded by <a href="mailto:galneufeld@gmail.com">Gali Neufeld</a>
+            {" "}and is{" "}
             <a href="https://github.com/GaliNeufeld/dictionary-project" target="_blank" rel="noreferrer noopener"
             >
               open-sourced
@@ -25,6 +27,8 @@ export default function App() {
         </footer>
       </div>
     </div>
+
+  
   );
 }
 
