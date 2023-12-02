@@ -25,7 +25,7 @@ export default function Dictionary(props) {
     }
 
     function search() {
-      let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+      let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}&per_page=3`;
       axios.get(apiUrl).then(handleDictionaryResponse);   
 
       let apiKey = "303b041t9dc7c1ce08f4ao48696a7fa8";
