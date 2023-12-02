@@ -13,7 +13,7 @@ export default function Photos(props) {
                     <a
                       href={photo.src.original}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <img
                         src={photo.src.landscape}
